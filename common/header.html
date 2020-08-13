@@ -1,0 +1,11 @@
+<script type="text/discourse-plugin" version="0.8.20">
+  api.reopenWidget("user-menu", {
+    defaultState() {
+      return {
+        currentQuickAccess: 'profile',
+        hasUnread: false,
+        markUnread: null
+      };
+    }
+  });
+</script>
